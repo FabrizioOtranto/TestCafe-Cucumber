@@ -1,0 +1,51 @@
+[ {
+  "uid" : "55b60abfe53a2341",
+  "name" : "User Registration and Login E2E Test",
+  "time" : {
+    "start" : 1630931634930,
+    "stop" : 1630931648438,
+    "duration" : 13508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac500c14464d987c",
+  "name" : "Place Order E2E Tests",
+  "time" : {
+    "start" : 1630931603800,
+    "stop" : 1630931642871,
+    "duration" : 39071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "895592928c8dd6c5",
+  "name" : "Assert Home Page Test",
+  "time" : {
+    "start" : 1630931607912,
+    "stop" : 1630931609444,
+    "duration" : 1532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a0dce0aa01466f",
+  "name" : "Change Currency Test",
+  "time" : {
+    "start" : 1630931606357,
+    "stop" : 1630931608899,
+    "duration" : 2542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea96f464d2886dab",
+  "name" : "Assert Home Page Test",
+  "time" : {
+    "start" : 1630931518555,
+    "stop" : 1630931521592,
+    "duration" : 3037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

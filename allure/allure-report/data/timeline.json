@@ -1,0 +1,96 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Change Currency Test",
+    "uid" : "c5a0dce0aa01466f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630931606357,
+      "stop" : 1630931608899,
+      "duration" : 2542
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+  }, {
+    "name" : "Assert Home Page Test",
+    "uid" : "895592928c8dd6c5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630931607912,
+      "stop" : 1630931609444,
+      "duration" : 1532
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+  }, {
+    "name" : "Assert Home Page Test",
+    "uid" : "ea96f464d2886dab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630931518555,
+      "stop" : 1630931521592,
+      "duration" : 3037
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+  }, {
+    "name" : "Place Order E2E Tests",
+    "uid" : "b119c08cd82a9009",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630931564712,
+      "stop" : 1630931610859,
+      "duration" : 46147
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+  }, {
+    "name" : "User Registration and Login E2E Test",
+    "uid" : "55b60abfe53a2341",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630931634930,
+      "stop" : 1630931648438,
+      "duration" : 13508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+  }, {
+    "name" : "Place Order E2E Tests",
+    "uid" : "ac500c14464d987c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630931603800,
+      "stop" : 1630931642871,
+      "duration" : 39071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+  }, {
+    "name" : "User Registration and Login E2E Test",
+    "uid" : "f5edd54889bbccd0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630931621404,
+      "stop" : 1630931634885,
+      "duration" : 13481
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+  } ],
+  "name" : "timeline"
+}

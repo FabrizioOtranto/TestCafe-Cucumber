@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "E2E Registration Fixture",
+    "children" : [ {
+      "name" : "Assert Home Page Test",
+      "uid" : "ea96f464d2886dab",
+      "parentUid" : "ae581a1b233ef793c95a6ea8e5f363eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931518555,
+        "stop" : 1630931521592,
+        "duration" : 3037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    }, {
+      "name" : "Place Order E2E Tests",
+      "uid" : "ac500c14464d987c",
+      "parentUid" : "ae581a1b233ef793c95a6ea8e5f363eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931603800,
+        "stop" : 1630931642871,
+        "duration" : 39071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    }, {
+      "name" : "Change Currency Test",
+      "uid" : "c5a0dce0aa01466f",
+      "parentUid" : "ae581a1b233ef793c95a6ea8e5f363eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931606357,
+        "stop" : 1630931608899,
+        "duration" : 2542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    } ],
+    "uid" : "ae581a1b233ef793c95a6ea8e5f363eb"
+  }, {
+    "name" : "Registration and Login E2E Fixture",
+    "children" : [ {
+      "name" : "Assert Home Page Test",
+      "uid" : "895592928c8dd6c5",
+      "parentUid" : "217325cef0cc653114c1622aa51002e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931607912,
+        "stop" : 1630931609444,
+        "duration" : 1532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    }, {
+      "name" : "User Registration and Login E2E Test",
+      "uid" : "55b60abfe53a2341",
+      "parentUid" : "217325cef0cc653114c1622aa51002e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931634930,
+        "stop" : 1630931648438,
+        "duration" : 13508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    } ],
+    "uid" : "217325cef0cc653114c1622aa51002e6"
+  } ],
+  "name" : "suites"
+}

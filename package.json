@@ -1,0 +1,21 @@
+{
+  "name": "testcafeavanzado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "cucumber": "^7.0.0-rc.0",
+    "testcafe": "^1.15.3",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {
+    "@applitools/eyes-testcafe": "^1.14.3"
+  }
+}

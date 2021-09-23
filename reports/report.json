@@ -1,0 +1,1078 @@
+[
+  {
+    "description": "As a visitor I can build my own computer",
+    "elements": [
+      {
+        "description": "",
+        "id": "build-your-own-computer;build-your-own-computer-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Build your own computer scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "The user is in the build your own computer page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user selects \"2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\" and \"4GB [+$20.00]\" && software",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user chooses the quantity",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user can see the \"$1,460.00\" and add it to the car",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3784000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "build-your-own-computer;build-your-own-computer-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Build your own computer scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "The user is in the build your own computer page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user selects \"2.2 GHz Intel Pentium Dual-Core E2200\" and \"8GB [+$60.00]\" && software",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user chooses the quantity",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user can see the \"$1,315.00\" and add it to the car",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerSteps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2853000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "build-your-own-computer",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Build Your Own Computer",
+    "tags": [],
+    "uri": "features\\BuildYourComputer.feature"
+  },
+  {
+    "description": "As a visitor I can build my own computer and follow the process to pay for it. ",
+    "elements": [
+      {
+        "description": "",
+        "id": "build-your-own-computer-end-to-end-feature;go-to-the-build-your-own-computer-page-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Go to the Build your own computer page Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 986000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "The user is on the Home Page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user navigates to the Desktop page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user selects the build your own computer option",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:25"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6000000000,
+              "error_message": "{\n  code: 'E26',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: 'C:\\\\Users\\\\fabry\\\\Desktop\\\\introduccion\\\\TestCafe\\\\TestCafeCucumber\\\\features\\\\step_definition\\\\BuildYourComputerE2ESteps.js',\n    lineNum: 25,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [Object], [Object],\n      [Object], [Object],\n      [Object], [Object],\n      [Object]\n    ],\n    isV8Frames: true\n  }\n}"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user is redirected to the build your own computer page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "build-your-own-computer-end-to-end-feature;build-your-ownn-computer-scenario",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Build your ownn computer scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "The user is on the build your own computer page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:36"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1258000000,
+              "error_message": "ExternalAssertionLibraryError {\n  code: 'E53',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: 'C:\\\\Users\\\\fabry\\\\Desktop\\\\introduccion\\\\TestCafe\\\\TestCafeCucumber\\\\features\\\\step_definition\\\\BuildYourComputerE2ESteps.js',\n    lineNum: 36,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [Object], [Object],\n      [Object], [Object],\n      [Object], [Object],\n      [Object]\n    ],\n    isV8Frames: true\n  },\n  errMsg: 'AssertionError: expected false to be truthy',\n  diff: false\n}"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "The user selects \"2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\" and \"4GB [+$20.00]\" && the software",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "The user chooses the ammount of computers",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:56"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The user can see the \"$1,460.00\" and add it to the shopping car",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "build-your-own-computer-end-to-end-feature;build-your-own-computer-shopping-cart-process-scenario",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Build your own computer shopping cart process scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "The user is on the shoping cart page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2437000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "The User accepts the terms of service",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "The user clicks Checkout button",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "The user is redirected to the login page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "build-your-own-computer-end-to-end-feature;checkout-as-a-guest-scenario",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Checkout as a guest scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "The user clicks on checkout as a guest",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "The user completes \"Fabrizio\", \"Otranto\",\"tester@gmail.com\",\"Argentina\",\"Buenos Aires\",\"Hot Dog Street\", \"200329\" and \"11329833443\"",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the user clicks on continue button",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "The user is redirected to the checkout page",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "build-your-own-computer-end-to-end-feature;checkout-process-scenario",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Checkout process scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "The user is on the checkout process",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "The user chooses the shipping method",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "The user chooses the payment method",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "the User accepts the payment information",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "the user confirms the order",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "a thank you message is displayed.",
+            "match": {
+              "location": "features\\step_definition\\BuildYourComputerE2ESteps.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "build-your-own-computer-end-to-end-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Build Your Own Computer End to End Feature",
+    "tags": [],
+    "uri": "features\\BuildYourComputerE2E.feature"
+  },
+  {
+    "description": "As an user i should see the available desktops, their prices and being able to add them to my car",
+    "elements": [
+      {
+        "description": "",
+        "id": "desktop-page-feature;desktop-page-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Desktop Page Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user is on the Desktop Page",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user see the available desktops and their prices",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2623000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The user adds the 1 to the car",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The user sees a successfull message or is redirected depeding on the 1",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2393000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "desktop-page-feature;desktop-page-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Desktop Page Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 966000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user is on the Desktop Page",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user see the available desktops and their prices",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2757000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The user adds the 2 to the car",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The user sees a successfull message or is redirected depeding on the 2",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2100000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "desktop-page-feature;desktop-page-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Desktop Page Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 981000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user is on the Desktop Page",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user see the available desktops and their prices",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2707000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The user adds the 0 to the car",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1931000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The user sees a successfull message or is redirected depeding on the 0",
+            "match": {
+              "location": "features\\step_definition\\SeeDesktopsSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2423000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "desktop-page-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Desktop Page Feature",
+    "tags": [],
+    "uri": "features\\Desktop.feature"
+  },
+  {
+    "description": "    As a visitor I can create a new account by the registration Feature",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;:-returning-customer-log-in-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": ": Returning Customer Log In Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user opens the login page",
+            "match": {
+              "location": "features\\step_definition\\LoginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 816000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user enters valid \"testing@gmail.com\" and \"testing\"",
+            "match": {
+              "location": "features\\step_definition\\LoginSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks login button",
+            "match": {
+              "location": "features\\step_definition\\LoginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Homepage subtitle is displayed",
+            "match": {
+              "location": "features\\step_definition\\LoginSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1086000000,
+              "error_message": "ExternalAssertionLibraryError {\n  code: 'E53',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: 'C:\\\\Users\\\\fabry\\\\Desktop\\\\introduccion\\\\TestCafe\\\\TestCafeCucumber\\\\features\\\\step_definition\\\\LoginSteps.js',\n    lineNum: 23,\n    callsiteFrameIdx: 6,\n    stackFrames: [\n      [Object], [Object],\n      [Object], [Object],\n      [Object], [Object],\n      [Object]\n    ],\n    isV8Frames: true\n  },\n  errMsg: 'AssertionError: expected false to be truthy',\n  diff: false\n}"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "features\\Login.feature"
+  },
+  {
+    "description": "    As a visitor I can navegate through the Navbar",
+    "elements": [
+      {
+        "description": "",
+        "id": "navbar-feature;:-new-user-registration-e2e-scenario",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": ": New User Registration E2E Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user opens the homePage page",
+            "match": {
+              "location": "features\\step_definition\\NavBarSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The selects the Camera and Photo link",
+            "match": {
+              "location": "features\\step_definition\\NavBarSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the Camera & Photo title is displayed",
+            "match": {
+              "location": "features\\step_definition\\NavBarSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2276000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "navbar-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Navbar Feature",
+    "tags": [],
+    "uri": "features\\Navbar.feature"
+  },
+  {
+    "description": "    As a visitor I can create a new account by the registration Feature",
+    "elements": [
+      {
+        "description": "",
+        "id": "registration-feature;:-new-user-registration-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": ": New User Registration Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user opens the registration page",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user selects the \"male\", \"Fabrizio\", \"Otranto\",\"31\", \"October\", \"1995\", \"testing\", and \"testing\"",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks register button",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "successfull message is displayed",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2017000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "registration-feature;:-new-user-registration-scenario",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": ": New User Registration Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 986000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user opens the registration page",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user selects the \"female\", \"Luciana\", \"Algisi\",\"1\", \"February\", \"1998\", \"tester\", and \"testing\"",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6984000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks register button",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1099000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "successfull message is displayed",
+            "match": {
+              "location": "features\\step_definition\\RegistrationSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1976000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registration Feature",
+    "tags": [],
+    "uri": "features\\Registration.feature"
+  }
+]

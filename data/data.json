@@ -1,0 +1,23 @@
+[
+    {
+        "firstname": "Fabrizio",
+        "lastname": "Otranto",
+        "birthday": "31",
+        "birtmonth": "October",
+        "birthyear": "1995",
+        "email": "testing",
+        "password": "testing123"
+
+},
+
+{
+    "firstname": "Agustin",
+    "lastname": "Salgado",
+    "birthday": "10",
+    "birtmonth": "July",
+    "birthyear": "1970",
+    "email": "testing123",
+    "password": "testing123"
+
+}
+]

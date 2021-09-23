@@ -1,0 +1,54 @@
+{
+  "uid" : "895592928c8dd6c5",
+  "name" : "Assert Home Page Test",
+  "fullName" : "Registration and Login E2E Fixture.Assert Home Page Test",
+  "historyId" : "76830be12f397a96b443e2e183af237f",
+  "time" : {
+    "start" : 1630931607912,
+    "stop" : 1630931609444,
+    "duration" : 1532
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Registration and Login E2E Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration and Login E2E Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assert Home Page Test"
+  }, {
+    "name" : "package",
+    "value" : "Registration and Login E2E Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 93.0.4577.63 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "895592928c8dd6c5.json",
+  "parameterValues" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+}

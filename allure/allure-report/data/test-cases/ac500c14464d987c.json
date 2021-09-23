@@ -1,0 +1,63 @@
+{
+  "uid" : "ac500c14464d987c",
+  "name" : "Place Order E2E Tests",
+  "fullName" : "E2E Registration Fixture.Place Order E2E Tests",
+  "historyId" : "ad78421e26ec36124ca8734d51d7eea2",
+  "time" : {
+    "start" : 1630931603800,
+    "stop" : 1630931642871,
+    "duration" : 39071
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "Place Order E2E Tests"
+  }, {
+    "name" : "package",
+    "value" : "E2E Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 93.0.4577.63 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b119c08cd82a9009",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1630931564712,
+        "stop" : 1630931610859,
+        "duration" : 46147
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac500c14464d987c.json",
+  "parameterValues" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+}

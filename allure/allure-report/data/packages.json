@@ -1,0 +1,78 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "E2E Registration Fixture",
+    "children" : [ {
+      "name" : "Assert Home Page Test",
+      "uid" : "ea96f464d2886dab",
+      "parentUid" : "22c66592607f64d3261c9b8590d7dc60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931518555,
+        "stop" : 1630931521592,
+        "duration" : 3037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    }, {
+      "name" : "Place Order E2E Tests",
+      "uid" : "ac500c14464d987c",
+      "parentUid" : "22c66592607f64d3261c9b8590d7dc60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931603800,
+        "stop" : 1630931642871,
+        "duration" : 39071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    }, {
+      "name" : "Change Currency Test",
+      "uid" : "c5a0dce0aa01466f",
+      "parentUid" : "22c66592607f64d3261c9b8590d7dc60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931606357,
+        "stop" : 1630931608899,
+        "duration" : 2542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    } ],
+    "uid" : "22c66592607f64d3261c9b8590d7dc60"
+  }, {
+    "name" : "Registration and Login E2E Fixture",
+    "children" : [ {
+      "name" : "Assert Home Page Test",
+      "uid" : "895592928c8dd6c5",
+      "parentUid" : "a6231fbcadbca548b8c92ba4f669c6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931607912,
+        "stop" : 1630931609444,
+        "duration" : 1532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    }, {
+      "name" : "User Registration and Login E2E Test",
+      "uid" : "55b60abfe53a2341",
+      "parentUid" : "a6231fbcadbca548b8c92ba4f669c6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630931634930,
+        "stop" : 1630931648438,
+        "duration" : 13508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+    } ],
+    "uid" : "a6231fbcadbca548b8c92ba4f669c6cd"
+  } ],
+  "name" : "packages"
+}

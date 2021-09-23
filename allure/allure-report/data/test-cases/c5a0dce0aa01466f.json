@@ -1,0 +1,54 @@
+{
+  "uid" : "c5a0dce0aa01466f",
+  "name" : "Change Currency Test",
+  "fullName" : "E2E Registration Fixture.Change Currency Test",
+  "historyId" : "16c795743443ffd1d8d8330cfca70e72",
+  "time" : {
+    "start" : 1630931606357,
+    "stop" : 1630931608899,
+    "duration" : 2542
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Registration Fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Registration Fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "Change Currency Test"
+  }, {
+    "name" : "package",
+    "value" : "E2E Registration Fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 93.0.4577.63 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5a0dce0aa01466f.json",
+  "parameterValues" : [ "Chrome 93.0.4577.63 / Windows 10" ]
+}

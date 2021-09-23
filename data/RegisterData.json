@@ -1,0 +1,25 @@
+[
+    {
+        "gender": "male",
+        "firstname": "Fabrizio",
+        "lastname": "Otranto",
+        "birthday": "31",
+        "birtmonth": "October",
+        "birthyear": "1995",
+        "email": "testing",
+        "password": "testing123"
+
+},
+
+{
+    "gender": "female",
+    "firstname": "Luciana",
+    "lastname": "Algisi",
+    "birthday": "1",
+    "birtmonth": "February",
+    "birthyear": "1998",
+    "email": "testing123",
+    "password": "testing123"
+
+}
+]
